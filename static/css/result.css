@@ -1,0 +1,32 @@
+.resultList {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+.result {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+}
+.result img {
+    width: 240px;
+    height:250px;
+}
+.result .resultInfo {
+    width: 160px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.resultInfo h2 {
+    margin: 0;
+}
+.resultInfo .info {
+    margin-top: 20px;
+    height: 24px;
+}

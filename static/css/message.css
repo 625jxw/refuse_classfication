@@ -1,0 +1,40 @@
+.messagebox {
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    box-sizing: border-box;
+    height: 40px;
+    overflow: hidden;
+    z-index:99999;
+    border: 1px solid #ebeef5; 
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    animation-duration:0.4s;
+}
+.success-message {
+    color: #67C23A;
+    background-color: #f0f9eb;
+    border-color: #e1f3d8;
+}
+
+.error-message {
+    background-color: #fef0f0;
+    border-color: #fde2e2;
+    color: #f56c6c;
+}
+.messagebox .message-icon {
+    width: 22px;
+    height: 22px;
+}
+.messagebox .message-icon img {
+    width: inherit;
+    height: inherit;
+}
+.messagebox .message {
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 5px;
+}

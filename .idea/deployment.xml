@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="qiucx@172.18.11.234:22">
+    <serverData>
+      <paths name="liufx@119.91.231.97:2221 password (1)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/qiucx/refuse_classification" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="qiucx@172.18.11.234:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/qiucx/refuse_classification" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@net.videojj.com:23178">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_614" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@net.videojj.com:38899">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_692" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

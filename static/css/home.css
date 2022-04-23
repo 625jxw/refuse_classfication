@@ -1,0 +1,149 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+a {
+	text-decoration: none; 
+	outline: none;
+	color: #000;
+}
+.header {
+    position: relative;
+    width: 100%;
+    background-color: #333;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%);;
+}
+.header .nav {
+    width: 1200px;
+    height: 58px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 20;
+}
+.nav-bar li a {
+    color: #fff;
+    text-overflow: ellipsis;
+}
+.nav-bar li a:hover {
+    color: #377dff;
+}
+.nav-bar ul {
+    list-style: none;
+    background-color: #333;
+    margin: 0;
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+.nav-bar ul li {
+    width: 300px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    cursor: pointer;
+}
+ .banner {
+    width: 980px;
+    margin: 0 auto;
+}
+.banner img {
+    width: 980px;
+}
+.container {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    padding: 20px 19px;
+}
+.main .top {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+}
+.top .title {
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.top .deleteAllHistory {
+    width: 82px;
+    height: 32px;
+    line-height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #00a1d6;
+    color: #00a1d6;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.top .deleteAllHistory:hover {
+    background-color: #00a1d6;
+    color: #fff;
+    opacity: .7;
+}
+.main .historyList {
+    margin-top: 20px;
+}
+.historyList .history {
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.history .left {
+    width: 320px;
+    height: 200px;
+}
+.left img{
+    width: 320px;
+    height: 200px;
+}
+.history .right{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    padding: 40px 0;
+    border-bottom: 1px solid #e5e9ef;
+}
+.right .result, .right .time {
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+}
+.delete {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    margin-top: -12px;
+    width: 24px;
+    height: 24px;
+    z-index: 10;
+    cursor: pointer;
+}
+.delete img {
+    width: 24px;
+    height: 24px;
+}
+
+
+.circle {
+    border: 5px solid rgba(255, 255, 255, .6);
+    border-top-color: rgb(68, 54, 54);
+    animation: chrys 2s linear infinite;
+    -webkit-animation: chrys 2s linear infinite;
+}
+.circleinfo {
+    width: 120px;
+    text-align: center;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+}
